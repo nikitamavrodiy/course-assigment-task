@@ -1,5 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        try {
+            doSomething();
+        } catch (Exception ex) {
+            throw new RuntimeException("Ошибка Exception обработана");
+        }
+    }
+
+    static void doSomething() throws Exception {
+        throw new Exception();
     }
 }
