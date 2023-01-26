@@ -3,7 +3,7 @@ public class Main {
         try {
             doSomething();
         } catch (Exception ex) {
-            throw new RuntimeException("Ошибка Exception обработана");
+            throw new RuntimeException("Ошибка Exception успешно обработана");
         }
     }
 
