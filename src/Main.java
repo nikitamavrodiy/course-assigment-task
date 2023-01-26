@@ -4,7 +4,7 @@ public class Main {
             doSomething();
         } catch (Exception ex) {
             System.out.println("Поймана ошибка Exception");
-            throw new RuntimeException("Ошибка Exception обработана");
+            throw new RuntimeException("Ошибка Exception успешно обработана");
         }
     }
 
